@@ -13,7 +13,7 @@
     <Accordion class="justify-center w-10/12" multiple>
         <AccordionItem bind:open={items[0]}>
             <span slot="header">Communication:</span>
-            <List class="max-w-none pl-5 mt-2 space-y-1">
+            <List class="!max-w-none pl-5 mt-2 space-y-1">
                 <Li>Always speak in a calm and clear voice (Adami et al., 2022).</Li>
                 <Li>Don’t force eye-contact, this can be very uncomfortable for them (a lack of eye-contact does not mean the student is not paying attention) (Kimber et al., 2023).</Li>
                 <Li>Don’t rely on facial expression/body language to communicate information (National Autistic Society 2020).</Li>
@@ -25,7 +25,7 @@
             <p>The use of clear and literal instructions accompanied by a demonstration are a good coaching strategy.</p>
             <br>
             <p>Tips:</p>
-            <List class="max-w-none pl-5 mt-2 space-y-1">
+            <List class="!max-w-none pl-5 mt-2 space-y-1">
                 <Li>Use brief and clear instructions and try to repeat the same instructions in the future (Kimber et al., 2023).</Li>
                 <Li>Accompany instructions with a demonstration (Kimber et al., 2023).</Li>
                 <Li>Avoid using non-literal phrases (National Autistic Society 2020).</Li>
@@ -38,7 +38,7 @@
             </p>
             <br>
             <p>Steps to take:</p>
-            <List tag="ol" class="max-w-none pl-5 mt-2 space-y-1">
+            <List tag="ol" class="!max-w-none pl-5 mt-2 space-y-1">
                 <Li>Try to not get mad and never raise your voice (Adami et al., 2022)This will only further over-simulate the student and make it harder for them to regain control of their emotions</Li>
                 <Li>Attempt to identify the cause of the misbehaviour (Adami et al., 2022).</Li>
                 <Li>If possible, send the student to a ‘time-in’ area. This should be a pre-designated quiet area that they can go to when they are over-simulated. Tell them you will leave them there for two minutes, and then come back and see if they are ready to talk/come back to the group. If not, set another two minutes. (Burns & Johnston, 2023).</Li>

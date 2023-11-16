@@ -1,8 +1,9 @@
 <script>
-import "../app.postcss";
-import Navbar from "./navbar.svelte";
+  import "../app.postcss";
+  import "../app.postcss";
+  import Navbar from "./navbar.svelte";
 </script>
 
-<Navbar></Navbar>
+<Navbar />
 
-<slot></slot>
+<slot />

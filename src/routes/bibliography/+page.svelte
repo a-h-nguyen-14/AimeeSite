@@ -5,7 +5,7 @@
 <br>
 <Heading class="text-center">Bibliography</Heading>
 <br>
-<List class="max-w-none pl-5 mt-2 space-y-1" list="none">
+<List class="!max-w-none pl-5 mt-2 space-y-1" list="none">
     <Li class="py-2">Accardo, A. L., Pontes, N. M. H., & Pontes, M. C. F. (2023). Greater Physical Activity is Associated with Lower Rates of Anxiety and Depression Among Autistic and ADHD Youth: National Survey of Children’s Health 2016–2020. *Journal of Autism and Developmental Disorders*. https://doi.org/10.1007/s10803-023-06117-0</Li>
     <Li class="py-2">Adami, C., Aznar, J. M., Balic, M. G., Bontognali, M., Muroni, R., Davitt, S., . . . Rundqvist, T. v. d. W., Tycho. (2022). *AUTJUDO: A Handbook on how to teach Judo to people with Autistic Spectrum Disorder* (B. L. James Mulroy, Ed.)  https://cdn.judomanager.com/files/web/4/Autjudo%20Best%20Practice%20Handbook%20v1.0%20en.pdf</Li>
     <Li class="py-2">Autism Awareness Australia (2021). *Autism signs in children*. https://www.autismawareness.com.au/understanding-autism/signs-children</Li>
@@ -32,3 +32,7 @@
     <Li class="py-2">Schaffler, M. D., Middleton, L. J., & Abdus-Saboor, I. (2019). Mechanisms of Tactile Sensory Phenotypes in Autism: Current Understanding and Future Directions for Research. *Curr Psychiatry Rep*, *21*(12), 134. https://doi.org/10.1007/s11920-019-1122-0</Li>
 </List>
 </div>
+
+<style>
+
+</style>

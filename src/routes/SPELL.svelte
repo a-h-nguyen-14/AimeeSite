@@ -18,7 +18,7 @@
             <p>Routine and structure are imperative for a successful ASD class (Adami et al., 2022; Kimber et al., 2023; National Autistic Society 2020). Change is often a major anxiety source for people with ASD, and so minimising unexpected situations and preparing the athletes for change as much as possible is best practice (Autism Awareness Australia 2021).</p>
             <br>
             <p>Tips:</p>
-            <List class="max-w-none pl-5 mt-2 space-y-1">
+            <List class="!max-w-none pl-5 mt-2 space-y-1">
                 <Li>Suggest that the students come to class 5-10 minutes early. This will allow them to get used to the environment.</Li>
                 <Li>Provide a training schedule to students prior to the session (can use pictures instead of words for students who are not literate) (Burns & Johnston, 2023).</Li>
                 <Li>Maintain a consistent structure and do not change too many things at once (Adami et al., 2022).</Li>
@@ -30,7 +30,7 @@
         <AccordionItem bind:open={items[1]}>
             <span slot="header">P: Positive approaches and expectations</span>
             <p>To get the most out of athletes with ASD, a positive approach should be used with clear expectations set out. (Burns & Johnston, 2023). This builds the athletes self-esteem and reduces anxiety (Burns & Johnston, 2023).</p>
-            <List class="max-w-none pl-5 mt-2 space-y-1">
+            <List class="!max-w-none pl-5 mt-2 space-y-1">
                 <Li>Clearly set out the rules and what is expected. Explain that Judo is not to be practiced outside of class (Burns & Johnston, 2023).</Li>
                 <Li>For adolescents, printing out the rules and getting them to sign them can be a good method. (Burns & Johnston, 2023).</Li>
                 <Li>Use positive reinforcement as much as possible and celebrate all successes (Rosso, 2016).</Li>
@@ -43,7 +43,7 @@
         <AccordionItem bind:open={items[2]}>
             <span slot="header">E: Empathy</span>
             <p>It is important to understand each judoka as much as possible to increase the trust and communication between the judoka and coach (Burns & Johnston, 2023).</p>
-            <List class="max-w-none pl-5 mt-2 space-y-1">
+            <List class="!max-w-none pl-5 mt-2 space-y-1">
                 <Li>Establish their strengths, weaknesses, interests and triggers (Burns & Johnston, 2023).</Li>
             </List>
         </AccordionItem>
@@ -52,7 +52,7 @@
             <p>ASD Judo classes should be run in a quiet and distraction free environment (Kimber et al., 2023; National Autistic Society 2020).</p>
             <br>
             <p>Tips:</p>
-            <List class="max-w-none pl-5 mt-2 space-y-1">
+            <List class="!max-w-none pl-5 mt-2 space-y-1">
                 <Li>Don’t run other classes at the same time (National Autistic Society 2020).</Li>
                 <Li>Keep the environment distraction free e.g. no toys on the side of the mat (Adami et al., 2022; National Autistic Society 2020).</Li>
                 <Li>Only get out the equipment you are currently using (National Autistic Society 2020).</Li>
@@ -64,7 +64,7 @@
             <p>A relationship should be formed between the coach and the athlete and their parents/carers if possible. Open communication between all parties ensures the coach has as much valuable information as possible (Burns & Johnston, 2023).</p>
             <br>
             <p>Prior to the athlete commencing their first class, provide parents with a form to ascertain what works at home, what triggers the athlete, and what works best in response to any behavioural issues (Kimber et al., 2023). (link to screening form)</p>
-            <List class="max-w-none pl-5 mt-2 space-y-1">
+            <List class="!max-w-none pl-5 mt-2 space-y-1">
                 <Li>What are their interests?</Li>
                 <Li>What upsets them?</Li>
                 <Li>How do you know if they are upset?</Li>
