@@ -1,18 +1,18 @@
 <script>
-    import { Accordion, AccordionItem, List, Li, Heading } from 'flowbite-svelte';
+    import { Accordion, AccordionItem, List, Li, Heading, P } from 'flowbite-svelte';
 </script>
 
 
 
-<div class="flex flex-col justify-center items-center px-5 bg-opacity-10">
+<div class="flex flex-col justify-center items-center px-20 bg-opacity-10">
     <Heading tag="h2" class="text-center">What is Autism?</Heading>
-    <p class="text-base dark:text-white"><em>Autism Spectrum Disorder (ASD) is a developmental condition which changes the way a person interacts with the world around them (Autism Spectrum AustraLia 2023). People with ASD see and interact with the world differently than neurotypical individuals. As the world is set up for neurotypical people, it can be challenging for people with ASD to navigate the world.
+    <P class="text-base dark:text-white" italic>Autism Spectrum Disorder (ASD) is a developmental condition which changes the way a person interacts with the world around them (Autism Spectrum AustraLia 2023). People with ASD see and interact with the world differently than neurotypical individuals. As the world is set up for neurotypical people, it can be challenging for people with ASD to navigate the world.
 
-        Each young person with ASD is individual.</em></p> 
+        Each young person with ASD is individual.</P> 
     <br>
     <Heading tag="h4" class="text-center">Some common characteristics you may see in a judoka with autism are:</Heading>
     <br>
-    <Accordion class="justify-center w-10/12">
+    <Accordion class="justify-center w-11/12">
         <AccordionItem>
             <span slot="header">Communication</span>
             <p class="font-black dark:text-white">Spoken</p>

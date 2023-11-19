@@ -1,24 +1,50 @@
 <script>
-    import { Tabs, TabItem } from 'flowbite-svelte';
+    import { Tabs, TabItem, Input, P } from 'flowbite-svelte';
     import TopCard from './topCard.svelte'; 
     import ClassCard from './classCard.svelte';
     import TrainerCard from './trainerCard.svelte';
-	import Footer from './footer.svelte';
+	  import Footer from './footer.svelte';
     import Characteristics from './Characteristics.svelte';
     import Judo from './Judo.svelte';
     import SPELL from './SPELL.svelte';
     import Coaching from './Coaching.svelte';
     import Classes from './Classes.svelte';
+
+    let password = 'Peek2023';
+    let attempt = 'Peek2023';
+    
 </script>
 
-<div id="main">
-    <div class="flex flex-col md:flex-row justify-center items-center px-5 bg-opacity-10">
-        <p class="text-base dark:text-white">Autism Spectrum Disorder (ASD) is a developmental condition which changes the way a person interacts with the world around them (Autism Spectrum AustraLia 2023). People with ASD see and interact with the world differently than neurotypical individuals. As the world is set up for neurotypical people, it can be challenging for people with ASD to navigate the world.
-
-Each young person with ASD is individual. </p>  
-    </div>
+<div id="main" class="">
     <br>
-    <Tabs class="justify-center">
+    {#if attempt != password}
+      <div class="flex flex-col justify-center items-center px-5 bg-opacity-10">
+        <form>
+        <p>Please enter website password:</p>
+        <Input type="password" bind:value={attempt} />
+      </form>
+      </div>
+    
+
+    {:else}
+    <br>
+
+    <div class="flex flex-col items-center px-5 bg-opacity-10">
+      <P class="font-Caveat px-20" align="center" size="3xl">We’ve created this website so you can create a safe, therapeutic and life-changing Judo program for young people with Autism. </P>
+    </div>
+
+    <br>
+    <div class="flex flex-col md:flex-row justify-center items-center px-5 bg-opacity-10">
+      <TopCard href="/characteristics" iconName="autism" title="What is Autism?"/>
+      <TopCard href="/judo" iconName="judo" title="Why Judo?"/>
+      <TopCard href="/coaching" iconName="coaching" title="Coaching Guidelines"/>
+    </div>
+    <div class="flex flex-col md:flex-row justify-center items-center px-5 bg-opacity-10">
+      <TopCard href="classes" iconName="class" title="Class Ideas"/>
+      <TopCard href="classes" iconName="enrol" title="Enrolment Process"/>
+      <TopCard href="classes" iconName="resources" title="Resources"/>
+    </div>
+    <!-- <Tabs class="justify-center">
         <TabItem open title="Characteristics">
             <Characteristics />
         </TabItem>
@@ -34,15 +60,14 @@ Each young person with ASD is individual. </p>
         <TabItem title="Class Structure and Activities">
           <Classes />
         </TabItem>
-        <TabItem disabled>
-          <span slot="title" class="text-gray-400 dark:text-gray-500">Disabled</span>
-          <p class="text-sm text-gray-500 dark:text-gray-400">
-            <b>Disabled:</b>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-          </p>
+        <TabItem title="Fact Sheet">
+          <Judo />
         </TabItem>
-      </Tabs>
-    
+        <TabItem title="Getting Started">
+          <Judo />
+        </TabItem>
+      </Tabs> -->
+      {/if}
 </div>
 
 <style>
