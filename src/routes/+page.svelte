@@ -30,7 +30,7 @@
     <br>
 
     <div class="flex flex-col items-center px-5 bg-opacity-10">
-      <P class="font-Caveat px-20" align="center" size="3xl">We’ve created this website so you can create a safe, therapeutic and life-changing Judo program for young people with Autism. </P>
+      <P class="font-Caveat px-20" align="center" size="3xl">Creating safe, therapeutic and life-changing Judo programs for young people with Autism. </P>
     </div>
 
     <br>
