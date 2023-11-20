@@ -24,11 +24,8 @@ const config = {
 			800: '#CC4522',
 			900: '#A5371B'
 		  },
-		  'autism-blue' : {
-			light: '#007bff',
-			DEFAULT: '#003260'
-		  },
-		//'autism-blue': '#003260'
+		  'autism-blue' : '#003260',
+		  'autism-blue-light': '#007bff'
 		
 		}
 	  }

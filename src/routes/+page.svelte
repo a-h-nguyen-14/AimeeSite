@@ -30,7 +30,7 @@
     <br>
 
     <div class="flex flex-col items-center px-5 bg-opacity-10">
-      <P class="font-Caveat px-20" align="center" size="3xl">Creating safe, therapeutic and life-changing Judo programs for young people with Autism. </P>
+      <p class="font-Caveat text-4xl px-20">Creating safe, therapeutic and life-changing Judo programs for young people with Autism. </p>
     </div>
 
     <br>
@@ -69,6 +69,7 @@
       </Tabs> -->
       {/if}
 </div>
+
 
 <style>
     .top-container {

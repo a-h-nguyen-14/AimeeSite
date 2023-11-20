@@ -9,7 +9,7 @@
 </script>
 
 
-<Card class="items-center m-1 w-150 bg-opacity-0 border-none w-4/12 !bg-slate-200" href={href}>
+<Card class="items-center mx-1 my-3 w-150 bg-opacity-0 border-none w-4/12 !bg-slate-200" href={href}>
     <div style='height: 200px' class="text-center">
         <div class='flex mx-auto w-32 h-32 place-content-center pt-3 bg-opacity-100'>
             {#if iconName === 'ChalkboardUserSolid'}  

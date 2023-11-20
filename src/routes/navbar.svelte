@@ -1,44 +1,50 @@
 <script>
     import { page } from '$app/stores';
-    import { Navbar, NavBrand, NavLi, NavUl, NavHamburger, Heading, Dropdown, DropdownItem, DropdownDivider } from 'flowbite-svelte';
+    import { P, Navbar, NavBrand, NavLi, NavUl, NavHamburger, Heading, Dropdown, DropdownItem, DropdownDivider } from 'flowbite-svelte';
     import { ChevronDownOutline } from 'flowbite-svelte-icons';
     import { onMount } from 'svelte';
 
-    let activeClass = "!text-red-600";
-    let nonActiveClass = "bg-green text-red-600 hover:bg-red hover:text-green";
+    let menuClass = "text-white text-2xl !bg-autism-blue";
+    let dropDownItemClass = "hover:text-autism-blue";
     let svg;
     $: activeUrl = $page.url.pathname;
 
 </script>
 
-
-<Navbar let:hidden let:toggle class="!bg-autism-blue">
-    <NavBrand href="/">
-      <img src="/icons/AdaptedJudo.svg" class="mr-3 h-20 " alt="Logo" style="fill: white" bind:this={svg}/>
-      <Heading class="text-white">Adapted Judo</Heading>
+<div class="bg-autism-blue">
+  <Navbar let:hidden let:toggle class="!bg-autism-blue">
+    <NavBrand href="/" class="mx-auto">
+      <span class="flex flex-row items-center bg-autism-blue">
+        <img src="/icons/AdaptedJudo.svg" style="height:120px" alt="Logo" bind:this={svg}/>
+        <p class="text-white font-Caveat text-7xl"><strong>Adapted Judo</strong></p>
+    </span>
     </NavBrand>
-    <NavHamburger on:click={toggle} />
-    <NavUl {hidden} class="bg-autism-blue" {activeUrl}>
-      <NavLi href="/" class="text-white">Home</NavLi>
-      <NavLi class="cursor-pointer text-white">
-        FactSheets<ChevronDownOutline class="w-3 h-3 ml-2 text-primary-800 dark:text-white inline" />
-      </NavLi>
-      <Dropdown class="w-44 z-20" {activeClass} >
-        <DropdownItem href="/characteristics">What is Autism?</DropdownItem>
-        <DropdownItem href="/judo">Why Judo?</DropdownItem>
-        <DropdownItem href="/classes">Coaching Guidelines</DropdownItem>
-      </Dropdown>
-      <NavLi class="cursor-pointer text-white">
-        Getting Started<ChevronDownOutline class="w-3 h-3 ml-2 text-primary-800 dark:text-white inline" />
-      </NavLi>
-      <Dropdown class="w-44 z-20">
-        <DropdownItem href="/docs/components/navbar">Enrolment Process</DropdownItem>
-        <DropdownItem href="/">Class Ideas</DropdownItem>
-        <DropdownItem href="/">Resources</DropdownItem>
-      </Dropdown>
-    </NavUl>
   </Navbar>
+  <Navbar let:hidden let:toggle class="!bg-autism-blue">
+    <NavHamburger on:click={toggle} class="!bg-autism-blue"/>
+      <NavUl {hidden} class="!bg-autism-blue mx-auto" {activeUrl}>
+        <NavLi href="/" class={menuClass}>Home</NavLi>
+        <NavLi class={menuClass + " cursor-pointer"}>
+          FactSheets<ChevronDownOutline class="w-3 h-3 ml-2 text-primary-800 dark:text-white inline" />
+        </NavLi>
+        <Dropdown class="w-44 z-20 bg-autism-blue text-white" >
+          <DropdownItem href="/characteristics" class={dropDownItemClass}>What is Autism?</DropdownItem>
+          <DropdownItem href="/judo" class={dropDownItemClass}>Why Judo?</DropdownItem>
+          <DropdownItem href="/classes" class={dropDownItemClass}>Coaching Guidelines</DropdownItem>
+        </Dropdown>
+        <NavLi class={menuClass + " cursor-pointer"}>
+          Getting Started<ChevronDownOutline class="w-3 h-3 ml-2 text-primary-800 dark:text-white inline" />
+        </NavLi>
+        <Dropdown class="w-44 z-20 bg-autism-blue text-white">
+          <DropdownItem href="/docs/components/navbar" class={dropDownItemClass}>Enrolment Process</DropdownItem>
+          <DropdownItem href="/" class={dropDownItemClass}>Class Ideas</DropdownItem>
+          <DropdownItem href="/" class={dropDownItemClass}>Resources</DropdownItem>
+        </Dropdown>
+      </NavUl>
+  </Navbar>
+</div>
 
+  
 <style>
 
 </style>
