@@ -30,15 +30,15 @@
         <Dropdown class="w-44 z-20 bg-autism-blue text-white" >
           <DropdownItem href="/characteristics" class={dropDownItemClass}>What is Autism?</DropdownItem>
           <DropdownItem href="/judo" class={dropDownItemClass}>Why Judo?</DropdownItem>
-          <DropdownItem href="/classes" class={dropDownItemClass}>Coaching Guidelines</DropdownItem>
+          <DropdownItem href="/coaching" class={dropDownItemClass}>Coaching Guidelines</DropdownItem>
         </Dropdown>
         <NavLi class={menuClass + " cursor-pointer"}>
           Getting Started<ChevronDownOutline class="w-3 h-3 ml-2 text-primary-800 dark:text-white inline" />
         </NavLi>
         <Dropdown class="w-44 z-20 bg-autism-blue text-white">
-          <DropdownItem href="/docs/components/navbar" class={dropDownItemClass}>Enrolment Process</DropdownItem>
-          <DropdownItem href="/" class={dropDownItemClass}>Class Ideas</DropdownItem>
-          <DropdownItem href="/" class={dropDownItemClass}>Resources</DropdownItem>
+          <DropdownItem href="/enrolment" class={dropDownItemClass}>Enrolment Process</DropdownItem>
+          <DropdownItem href="/classes" class={dropDownItemClass}>Class Ideas</DropdownItem>
+          <DropdownItem href="/resources" class={dropDownItemClass}>Resources</DropdownItem>
         </Dropdown>
       </NavUl>
   </Navbar>
