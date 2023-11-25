@@ -25,7 +25,7 @@
       <NavUl {hidden} class="!bg-autism-blue mx-auto" {activeUrl}>
         <NavLi href="/" class={menuClass}>Home</NavLi>
         <NavLi class={menuClass + " cursor-pointer"}>
-          FactSheets<ChevronDownOutline class="w-3 h-3 ml-2 text-primary-800 dark:text-white inline" />
+          Factsheets<ChevronDownOutline class="w-3 h-3 ml-2 text-primary-800 dark:text-white inline" />
         </NavLi>
         <Dropdown class="w-44 z-20 bg-autism-blue text-white" >
           <DropdownItem href="/characteristics" class={dropDownItemClass}>What is Autism?</DropdownItem>

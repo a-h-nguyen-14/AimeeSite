@@ -5,7 +5,7 @@
 
 
 <div class="flex flex-col justify-center items-center px-20 bg-opacity-10">
-    <Heading tag="h2" class="text-center">What is Autism?</Heading>
+    <Heading tag="h2" class="text-center my-5">What is Autism?</Heading>
     <P class="text-base dark:text-white" italic>Autism Spectrum Disorder (ASD) is a developmental condition which changes the way a person interacts with the world around them (Autism Spectrum Australia, 2023). People with ASD see and interact with the world differently than neurotypical individuals. As the world is set up for neurotypical people, it can be challenging for people with ASD to navigate the world.
 
         Each young person with ASD is individual.</P> 

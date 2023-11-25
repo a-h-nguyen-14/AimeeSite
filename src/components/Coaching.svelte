@@ -1,5 +1,7 @@
 <script>
     import { Accordion, AccordionItem, Button, Heading, Li, List } from 'flowbite-svelte';
+    import { PlusSolid, MinusSolid, MinusOutline } from 'flowbite-svelte-icons';
+
     const items = Array(5);
 
     const open_all = () => items.forEach((_, i) => (items[i] = true));
@@ -7,16 +9,16 @@
 </script>
 
 <div class="flex flex-col justify-center items-center px-5 bg-opacity-10">
-    <Heading tag="h2" class="text-center">Coaching Guidelines</Heading>
+    <Heading tag="h2" class="text-center mt-5">Coaching Guidelines</Heading>
     <br>
-    <span><Button on:click={open_all}>Open all</Button><Button on:click={close_all}>Close all</Button></span>
+    <div class="w-10/12"><Button on:click={open_all} outline={true} class="float-right" size="sm"><PlusSolid class="w-2.5"></PlusSolid></Button><Button on:click={close_all} class="float-right" outline={true} size="sm"><MinusOutline class="w-2.5"></MinusOutline></Button></div>
     <Accordion class="justify-center w-10/12" multiple>
         <AccordionItem bind:open={items[0]}>
             <span slot="header">Communication:</span>
             <List class="!max-w-none pl-5 mt-2 space-y-1">
                 <Li>Always speak in a calm and clear voice (Adami et al., 2022).</Li>
                 <Li>Don’t force eye-contact, this can be very uncomfortable for them (a lack of eye-contact does not mean the student is not paying attention) (Kimber et al., 2023).</Li>
-                <Li>Don’t rely on facial expression/body language to communicate information (National Autistic Society 2020).</Li>
+                <Li>Don’t rely on facial expression/body language to communicate information (National Autistic Society, 2020).</Li>
                 <Li>If you make a joke and they do not get it, explain the joke (Adami et al., 2022).</Li>
             </List>
         </AccordionItem>
@@ -29,7 +31,7 @@
                 <Li>Use brief and clear instructions and try to repeat the same instructions in the future (Kimber et al., 2023).</Li>
                 <Li>Accompany instructions with a demonstration (Kimber et al., 2023).</Li>
                 <Li>Avoid using non-literal phrases (National Autistic Society 2020).</Li>
-                <Li>Allow for time to process information (around 6 seconds) before adding more (National Autistic Society 2020).</Li>
+                <Li>Allow for time to process information (around 6 seconds) before adding more (National Autistic Society, 2020).</Li>
             </List>
         </AccordionItem>
         <AccordionItem bind:open={items[2]}>

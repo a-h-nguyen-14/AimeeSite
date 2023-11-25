@@ -1,9 +1,13 @@
 <script>
-    import { Heading, List, Li } from 'flowbite-svelte';
+    import { Heading, List, Li, A } from 'flowbite-svelte';
 </script>
 
-<div class="flex flex-col  px-5 bg-opacity-10">
-<Heading tag="h3">Structure</Heading>
+<div class="flex flex-col px-5 bg-opacity-10">
+    <div class="mx-10">
+        <A href="/resources/" class="">Please click for sample lesson plans</A>
+        <br>
+        <br>
+        <Heading tag="h3">Structure</Heading>
 
 <List class="!max-w-none pl-5 mt-2 space-y-1">
     <Li>Warm-up</Li>
@@ -118,4 +122,6 @@
     <Li>Bow</Li>
 </List>
 
+
+</div>
 </div>

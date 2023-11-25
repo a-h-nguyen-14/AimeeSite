@@ -1,5 +1,6 @@
 <script>
-    import { Accordion, AccordionItem, Button, Heading, Li, List } from 'flowbite-svelte';
+    import { A, Accordion, AccordionItem, Button, Heading, Li, List } from 'flowbite-svelte';
+    import { MinusOutline, PlusSolid } from 'flowbite-svelte-icons';
     const items = Array(5);
 
     const open_all = () => items.forEach((_, i) => (items[i] = true));
@@ -11,11 +12,11 @@
     <br>
     <p>The SPELL framework can be used to ensure best practice coaching. It was developed by the UK National Autistic Society and highlights five principles that are essential to uphold when  coaching young adults with ASD (Burns & Johnston, 2023).</p>
     <br>
-    <span><Button on:click={open_all}>Open all</Button><Button on:click={close_all}>Close all</Button></span>
+    <div class="w-10/12"><Button on:click={open_all} outline={true} class="float-right" size="sm"><PlusSolid class="w-2.5"></PlusSolid></Button><Button on:click={close_all} class="float-right" outline={true} size="sm"><MinusOutline class="w-2.5"></MinusOutline></Button></div>
     <Accordion class="justify-center w-10/12" multiple>
         <AccordionItem bind:open={items[0]}>
             <span slot="header">S: Structure</span>
-            <p>Routine and structure are imperative for a successful ASD class (Adami et al., 2022; Kimber et al., 2023; National Autistic Society 2020). Change is often a major anxiety source for people with ASD, and so minimising unexpected situations and preparing the athletes for change as much as possible is best practice (Autism Awareness Australia 2021).</p>
+            <p>Routine and structure are imperative for a successful ASD class (Adami et al., 2022; Kimber et al., 2023; National Autistic Society 2020). Change is often a major anxiety source for people with ASD, and so minimising unexpected situations and preparing the athletes for change as much as possible is best practice (Autism Awareness Australia, 2021).</p>
             <br>
             <p>Tips:</p>
             <List class="!max-w-none pl-5 mt-2 space-y-1">
@@ -23,7 +24,7 @@
                 <Li>Provide a training schedule to students prior to the session (can use pictures instead of words for students who are not literate) (Burns & Johnston, 2023).</Li>
                 <Li>Maintain a consistent structure and do not change too many things at once (Adami et al., 2022).</Li>
                 <Li>Consider performing each section of the session in a particular area. E.g. warm up is always in the right hand corner (Burns & Johnston, 2023).</Li>
-                <Li>Have a structure for unstructured times as well e.g. drink breaks (National Autistic Society 2020).</Li>
+                <Li>Have a structure for unstructured times as well e.g. drink breaks (National Autistic Society, 2020).</Li>
                 <Li>Aim for a 1:2 staff:student ratio (Rosso, 2016).</Li>
             </List>
         </AccordionItem>
@@ -53,9 +54,9 @@
             <br>
             <p>Tips:</p>
             <List class="!max-w-none pl-5 mt-2 space-y-1">
-                <Li>Don’t run other classes at the same time (National Autistic Society 2020).</Li>
-                <Li>Keep the environment distraction free e.g. no toys on the side of the mat (Adami et al., 2022; National Autistic Society 2020).</Li>
-                <Li>Only get out the equipment you are currently using (National Autistic Society 2020).</Li>
+                <Li>Don’t run other classes at the same time (National Autistic Society, 2020).</Li>
+                <Li>Keep the environment distraction free e.g. no toys on the side of the mat (Adami et al., 2022; National Autistic Society, 2020).</Li>
+                <Li>Only get out the equipment you are currently using (National Autistic Society, 2020).</Li>
                 <Li>Designate a quiet area, for example a tent, where Judoka can go if they feel overstimulated/overwhelmed (Adami et al., 2022).</Li>
             </List>
         </AccordionItem>
@@ -63,15 +64,15 @@
             <span slot="header">L: Links</span>
             <p>A relationship should be formed between the coach and the athlete and their parents/carers if possible. Open communication between all parties ensures the coach has as much valuable information as possible (Burns & Johnston, 2023).</p>
             <br>
-            <p>Prior to the athlete commencing their first class, provide parents with a form to ascertain what works at home, what triggers the athlete, and what works best in response to any behavioural issues (Kimber et al., 2023). (link to screening form)</p>
-            <List class="!max-w-none pl-5 mt-2 space-y-1">
+            <p>Prior to the athlete commencing their first class, provide parents with a <A href="/resources">participant profile</A> to ascertain what works at home, what triggers the athlete, and what works best in response to any behavioural issues (Kimber et al., 2023).</p>
+            <!-- <List class="!max-w-none pl-5 mt-2 space-y-1">
                 <Li>What are their interests?</Li>
                 <Li>What upsets them?</Li>
                 <Li>How do you know if they are upset?</Li>
                 <Li>How do you redirect them when they are upset?</Li>
                 <Li>Do they exhibit any stimming behaviours?</Li>
                 <Li>Are they hyper/hypo sensitive to any senses?</Li>
-            </List>
+            </List> -->
         </AccordionItem>
     </Accordion>
 </div>
