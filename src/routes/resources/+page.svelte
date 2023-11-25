@@ -4,8 +4,9 @@
 
 <br>
 <br>
-<div class="ml-5">
-    <A href="/resources/visual_story.docx" class="ml-2">Visual Story</A>
+<div class="mx-auto w-10/12">
+    <div class="mx-auto w-10/12"><A href="/resources/participant_profile.docx">Participant Profile</A></div><br>
+    <div class="mx-auto w-10/12"><A href="/resources/visual_story.docx">Visual Story</A></div>
 </div>
 <br>
 <br>
