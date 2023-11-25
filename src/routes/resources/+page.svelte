@@ -6,6 +6,7 @@
 <Heading class="text-center">Resources</Heading>
 <br>
 <div class="">
+<Heading tag="h6">Enrolment resources</Heading>
 <List class="mx-auto" list="none">
     <Li class=""><A href="/resources/participant_profile.docx">Participant Profile</A></Li>
     <Li class=""><A href="/resources/visual_story.docx">Visual Story</A></Li>

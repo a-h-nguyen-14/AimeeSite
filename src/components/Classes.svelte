@@ -32,9 +32,6 @@
 <Heading tag="h5">Warm-up</Heading>
 <List tag="ul" class="!max-w-none pl-5 mt-2 space-y-1">
     <Li>Stretching</Li>
-    <List tag="ol" class="!max-w-none pl-5 mt-2 space-y-1">
-        <Li>One arm across</Li>
-    </List>
     <Li>Deep breathing</Li>
 </List>
 
@@ -81,8 +78,8 @@
     <Li>Jogging on the spot and break-falling</Li>
     <Li>Running around judo mat and break-falling on instructors command</Li>
     <Li>High five into breakfall with partner</Li>
-    <Li>Throw a ball in a circle, whoever throws the ball then breakfalls (adaptive judo) (recommended 10-18)</Li>
-    <Li>Person runs in a circle and pulls them backwards for them to breakfall (adaptive judo) (recommended 10-18)</Li>
+    <Li>Throw a ball in a circle, whoever throws the ball then breakfalls (Adami et al., 2022) (recommended 10-18)</Li>
+    <Li>Person runs in a circle and pulls them backwards for them to breakfall (Adami et al., 2022) (recommended 10-18)</Li>
 </List>
 <br>
 <Heading tag="h5">Judo skills</Heading>
@@ -110,9 +107,6 @@
     <Li>What does Gi mean in English? (Judo uniform)</Li>
     <Li>What country is Judo from? (Japan)</Li>
 </List>
-
-<br>
-<Heading tag="h5">Game</Heading>
 
 <br>
 <Heading tag="h5">Cool-down</Heading>

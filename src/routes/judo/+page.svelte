@@ -1,5 +1,5 @@
 <script>
-    import Judo from "../Judo.svelte";
+    import Judo from "../../components/Judo.svelte";
 </script>
 <br>
 <br>

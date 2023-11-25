@@ -3,6 +3,7 @@
     import { P, Navbar, NavBrand, NavLi, NavUl, NavHamburger, Heading, Dropdown, DropdownItem, DropdownDivider } from 'flowbite-svelte';
     import { ChevronDownOutline } from 'flowbite-svelte-icons';
     import { onMount } from 'svelte';
+    import ProblemSolving from '../components/ProblemSolving.svelte';
 
     let menuClass = "text-white text-2xl !bg-autism-blue";
     let dropDownItemClass = "hover:text-autism-blue";
@@ -40,6 +41,7 @@
           <DropdownItem href="/classes" class={dropDownItemClass}>Class Ideas</DropdownItem>
           <DropdownItem href="/resources" class={dropDownItemClass}>Resources</DropdownItem>
         </Dropdown>
+        <NavLi href="/problem-solving" class={menuClass}>Problem Solving</NavLi>
       </NavUl>
   </Navbar>
 </div>

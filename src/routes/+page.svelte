@@ -1,17 +1,9 @@
 <script>
-    import { Tabs, TabItem, Input, P } from 'flowbite-svelte';
+    import { Input } from 'flowbite-svelte';
     import TopCard from './topCard.svelte'; 
-    import ClassCard from './classCard.svelte';
-    import TrainerCard from './trainerCard.svelte';
-	  import Footer from './footer.svelte';
-    import Characteristics from './Characteristics.svelte';
-    import Judo from './Judo.svelte';
-    import SPELL from './SPELL.svelte';
-    import Coaching from './Coaching.svelte';
-    import Classes from './Classes.svelte';
 
     let password = 'Peek2023';
-    let attempt = 'Peek2023';
+    let attempt = '';
     
 </script>
 
@@ -44,6 +36,7 @@
       <TopCard href="classes" iconName="enrol" title="Enrolment Process"/>
       <TopCard href="classes" iconName="resources" title="Resources"/>
     </div>
+    <br>
     <!-- <Tabs class="justify-center">
         <TabItem open title="Characteristics">
             <Characteristics />
