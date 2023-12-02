@@ -3,7 +3,7 @@
     import TopCard from './topCard.svelte'; 
 
     let password = 'Peek2023';
-    let attempt = '';
+    let attempt = 'Peek2023';
     
 </script>
 
