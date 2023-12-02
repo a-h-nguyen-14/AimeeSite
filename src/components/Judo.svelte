@@ -28,7 +28,8 @@
         </AccordionItem>
         <AccordionItem>
             <span slot="header">6. Increase self-esteem</span>
-            <p>Individuals with autism have lower personal self-esteem levels than their neurotypical peers (Cooper, Smith, & Russell, 2017).  Judo provides a space in which young people can learn new skills and advance grades through dedication and practice. Following an eight-week judo program for young people with ASD, 78% of the participants parents reported that their children had greater self-esteem and confidence levels (Rivera et al., 2020).</p>
+            <!-- <p>Individuals with autism have lower personal self-esteem levels than their neurotypical peers (Cooper, Smith, & Russell, 2017).  Judo provides a space in which young people can learn new skills and advance grades through dedication and practice. Following an eight-week judo program for young people with ASD, 78% of the participants parents reported that their children had greater self-esteem and confidence levels (Rivera et al., 2020).</p> -->
+            <p>Individuals with autism have lower personal self-esteem levels than their neurotypical peers (Cooper, Smith, & Russell, 2017).  Judo provides a space in which young people can learn new skills and advance grades through dedication and practice. Gradings involve a physical demonstration of skills rather than written, verbal or social skills. Following an eight-week judo program for young people with ASD, 78% of the participants parents reported that their children had greater self-esteem and confidence levels (Rivera et al., 2020).</p>
         </AccordionItem>
         <AccordionItem>
             <span slot="header">7. Boosts mental health</span>
@@ -36,7 +37,8 @@
         </AccordionItem>
         <AccordionItem>
             <span slot="header">8. Increases comfort with physical contact</span>
-            <p>Physical touch is a source of discomfort for many people with Autism (Schaffler, Middleton, & Abdus-Saboor, 2019). Judo provides an environment in which children with Autism can get more comfortable with physical contact through physical contact mediated through the grip of the judo uniform. (Morales et al., 2021). </p>
+            <!-- <p>Physical touch is a source of discomfort for many people with Autism (Schaffler, Middleton, & Abdus-Saboor, 2019). Judo provides an environment in which children with Autism can get more comfortable with physical contact through physical contact mediated through the grip of the judo uniform. (Morales et al., 2021). </p> -->
+            <p>Physical touch is a source of discomfort for many people with Autism (Schaffler, Middleton, & Abdus-Saboor, 2019). Judo provides an environment in which children with Autism can get more comfortable with physical contact through contact mediated through the grip of the judo uniform (Morales et al., 2021). Unlike most other contact sports, Judo involves having others in your personal space without heavy contact or hitting.</p>
         </AccordionItem>
         <AccordionItem>
             <span slot="header">9. Improves emotional regulation</span>
