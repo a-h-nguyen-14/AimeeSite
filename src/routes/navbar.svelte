@@ -17,7 +17,7 @@
     <NavBrand href="/" class="mx-auto">
       <span class="flex flex-row items-center bg-autism-blue">
         <img src="/icons/AdaptedJudo.svg" style="height:120px" alt="Logo" bind:this={svg}/>
-        <p class="text-white font-Caveat text-7xl"><strong>Adapting Judo</strong></p>
+        <p class="text-white font-Caveat text-7xl"><strong>Adaptive Judo</strong></p>
     </span>
     </NavBrand>
   </Navbar>

@@ -38,7 +38,7 @@
         <AccordionItem>
             <span slot="header">8. Increases comfort with physical contact</span>
             <!-- <p>Physical touch is a source of discomfort for many people with Autism (Schaffler, Middleton, & Abdus-Saboor, 2019). Judo provides an environment in which children with Autism can get more comfortable with physical contact through physical contact mediated through the grip of the judo uniform. (Morales et al., 2021). </p> -->
-            <p>Physical touch is a source of discomfort for many people with Autism (Schaffler, Middleton, & Abdus-Saboor, 2019). Judo provides an environment in which children with Autism can get more comfortable with physical contact through contact mediated through the grip of the judo uniform (Morales et al., 2021). Unlike most other contact sports, Judo involves having others in your personal space without heavy contact or hitting.</p>
+            <p>Physical touch is a source of discomfort for many people with Autism (Schaffler, Middleton, & Abdus-Saboor, 2019). Judo provides an environment in which children with Autism can get more comfortable with physical contact through contact mediated through the grip of the judo uniform (Morales et al., 2021). Unlike most other contact sports, Judo involves having others in your personal space without heavy contact or striking.</p>
         </AccordionItem>
         <AccordionItem>
             <span slot="header">9. Improves emotional regulation</span>
